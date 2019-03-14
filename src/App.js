@@ -1,28 +1,44 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import { createMuiTheme, withStyles, MuiThemeProvider } from '@material-ui/core/styles';
+
+import teal from '@material-ui/core/colors/teal';
+import pink from '@material-ui/core/colors/pink';
+
+import networksScatteringImage from './images/backgrounds/networks-scattering.gif';
+
+const theme = createMuiTheme({
+  palette: {
+    primary: teal,
+    secondary: pink
+  },
+
+  typography: {
+    useNextVariants: true
+  }
+});
+
+const styles = (theme) => ({
+  background: {
+    minHeight: `100vh`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
+  }
+});
 
 class App extends Component {
   render() {
+    const { classes } = this.props;
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <MuiThemeProvider theme={theme}>
+        <div className={classes.background} style={{ backgroundImage: `url(${networksScatteringImage})` }}>
+
+        </div>
+      </MuiThemeProvider>
     );
   }
 }
 
-export default App;
+export default withStyles(styles)(App);
