@@ -2,15 +2,17 @@ import React, { Component } from 'react';
 
 import { createMuiTheme, withStyles, MuiThemeProvider } from '@material-ui/core/styles';
 
-import teal from '@material-ui/core/colors/teal';
-import pink from '@material-ui/core/colors/pink';
+import deepOrange from '@material-ui/core/colors/deepOrange';
+import cyan from '@material-ui/core/colors/cyan';
+
+import Presentation from './layout/Presentation';
 
 import networksScatteringImage from './images/backgrounds/networks-scattering.gif';
 
 const theme = createMuiTheme({
   palette: {
-    primary: teal,
-    secondary: pink
+    primary: deepOrange,
+    secondary: cyan
   },
 
   typography: {
@@ -34,7 +36,7 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <div className={classes.background} style={{ backgroundImage: `url(${networksScatteringImage})` }}>
-
+          <Presentation />
         </div>
       </MuiThemeProvider>
     );
