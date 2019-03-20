@@ -70,7 +70,7 @@ class Presentation extends Component {
     const { selectedTab } = this.state;
 
     return (
-      <Dialog open>
+      <Dialog maxWidth='md' open>
         <DialogTitle className={classes.title}>
           Unity Networking
 

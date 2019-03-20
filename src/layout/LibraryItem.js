@@ -43,6 +43,10 @@ class LibraryItem extends Component {
                 {library.author}
               </Typography>
 
+              <Typography component="span" color="textSecondary" variant="caption">
+                {library.license} &middot; {library.price === 0 ? 'Free' : '$' + library.price}
+              </Typography>
+
               {library.description}
             </React.Fragment>
           }
