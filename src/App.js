@@ -1,28 +1,46 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import { createMuiTheme, withStyles, MuiThemeProvider } from '@material-ui/core/styles';
+
+import deepOrange from '@material-ui/core/colors/deepOrange';
+import cyan from '@material-ui/core/colors/cyan';
+
+import Presentation from './layout/Presentation';
+
+import networksScatteringImage from './images/backgrounds/networks-scattering.gif';
+
+const theme = createMuiTheme({
+  palette: {
+    primary: deepOrange,
+    secondary: cyan
+  },
+
+  typography: {
+    useNextVariants: true
+  }
+});
+
+const styles = (theme) => ({
+  background: {
+    minHeight: `100vh`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
+  }
+});
 
 class App extends Component {
   render() {
+    const { classes } = this.props;
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <MuiThemeProvider theme={theme}>
+        <div className={classes.background} style={{ backgroundImage: `url(${networksScatteringImage})` }}>
+          <Presentation />
+        </div>
+      </MuiThemeProvider>
     );
   }
 }
 
-export default App;
+export default withStyles(styles)(App);
