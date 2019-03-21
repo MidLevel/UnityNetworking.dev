@@ -6,7 +6,7 @@
     "author": "Albin Corén",
     "price": 0.00,
     "license": "MIT",
-    "href": "https://github.com/MidLevel/MLAPI"
+    "href": "https://github.com/MidLevel/MLAPI/"
   },
   {
     "logo": "https://pre00.deviantart.net/2a7d/th/pre/i/2017/117/1/a/unity_logo_by_sayence-db7crrv.png",
@@ -16,5 +16,23 @@
     "price": 0.00,
     "license": "MIT",
     "href": "https://bitbucket.org/Unity-Technologies/networking/"
+  },
+  {
+    "logo": "https://i.imgur.com/ytg1nw5.png",
+    "title": "NetStack",
+    "description": "Lightweight toolset for creating concurrent networking systems for multiplayer games.",
+    "author": "nxrighthere",
+    "price": 0.00,
+    "license": "MIT",
+    "href": "https://github.com/nxrighthere/NetStack/"
+  },
+  {
+    "logo": "https://i.imgur.com/X8xKsVA.png",
+    "title": "BenchmarkNet",
+    "description": "BenchmarkNet is a console application for testing the reliable UDP networking solutions.",
+    "author": "nxrighthere",
+    "price": 0.00,
+    "license": "MIT",
+    "href": "https://github.com/nxrighthere/BenchmarkNet/"
   }
 ]
