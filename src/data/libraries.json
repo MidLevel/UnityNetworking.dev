@@ -34,5 +34,23 @@
     "price": 0.00,
     "license": "MIT",
     "href": "https://github.com/nxrighthere/BenchmarkNet/"
+  },
+  {
+    "logo": null,
+    "title": "ValveSockets-CSharp",
+    "description": "Managed C# wrapper for GameNetworkingSockets library by Valve Software .",
+    "author": "nxrighthere",
+    "price": 0.00,
+    "license": "MIT",
+    "href": "https://github.com/nxrighthere/ValveSockets-CSharp/"
+  },
+  {
+    "logo": null,
+    "title": "ENet-CSharp",
+    "description": "Reliable UDP networking library extended for the .NET environment.",
+    "author": "nxrighthere",
+    "price": 0.00,
+    "license": "MIT",
+    "href": "https://github.com/nxrighthere/ENet-CSharp/"
   }
 ]
