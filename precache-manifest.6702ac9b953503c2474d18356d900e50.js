@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "a1471d1d6431c893582a5f6a250db3f9",
-    "url": "/static/media/roboto-latin-300.a1471d1d.woff"
+    "revision": "d69924b98acd849cdeba9fbff3f88ea6",
+    "url": "/static/media/roboto-latin-300italic.d69924b9.woff2"
   },
   {
-    "revision": "4889503a76a27d6238f2",
+    "revision": "64de1ad66ba5a12e7f43",
     "url": "/static/css/main.3a0a3ad3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "bc833e725c137257c2c42a789845d82f",
-    "url": "/static/media/roboto-latin-900italic.bc833e72.woff"
+    "revision": "7b770d6c53423deb1a8e49d3c9175184",
+    "url": "/static/media/roboto-latin-900italic.7b770d6c.woff2"
   },
   {
     "revision": "ba2aa2398d1e7161de57",
@@ -60,20 +60,20 @@ self.__precacheManifest = [
     "url": "/static/media/roboto-latin-100italic.6232f43d.woff2"
   },
   {
-    "revision": "4889503a76a27d6238f2",
-    "url": "/static/js/main.2b52a8bd.chunk.js"
+    "revision": "64de1ad66ba5a12e7f43",
+    "url": "/static/js/main.aa3fcc87.chunk.js"
   },
   {
-    "revision": "d69924b98acd849cdeba9fbff3f88ea6",
-    "url": "/static/media/roboto-latin-300italic.d69924b9.woff2"
-  },
-  {
-    "revision": "210a7c781f5a354a0e4985656ab456d9",
-    "url": "/static/media/roboto-latin-300italic.210a7c78.woff"
+    "revision": "a1471d1d6431c893582a5f6a250db3f9",
+    "url": "/static/media/roboto-latin-300.a1471d1d.woff"
   },
   {
     "revision": "bafb105baeb22d965c70fe52ba6b49d9",
     "url": "/static/media/roboto-latin-400.bafb105b.woff"
+  },
+  {
+    "revision": "210a7c781f5a354a0e4985656ab456d9",
+    "url": "/static/media/roboto-latin-300italic.210a7c78.woff"
   },
   {
     "revision": "d8bcbe724fd6f4ba44d0ee6a2675890f",
@@ -112,15 +112,15 @@ self.__precacheManifest = [
     "url": "/static/media/roboto-latin-900.8c2ade50.woff"
   },
   {
-    "revision": "7b770d6c53423deb1a8e49d3c9175184",
-    "url": "/static/media/roboto-latin-900italic.7b770d6c.woff2"
+    "revision": "bc833e725c137257c2c42a789845d82f",
+    "url": "/static/media/roboto-latin-900italic.bc833e72.woff"
   },
   {
     "revision": "ba2aa2398d1e7161de57",
     "url": "/static/css/2.e6821cfe.chunk.css"
   },
   {
-    "revision": "7d032af60d910d217ceb6b71247fab34",
+    "revision": "cf9b4bd3160e7ae4fd4f8a9ab0f1a760",
     "url": "/index.html"
   }
 ];
