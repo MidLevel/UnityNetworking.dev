@@ -2,7 +2,7 @@
   {
     "logo": "https://i.imgur.com/oF9L3p4.png",
     "title": "MLAPI",
-    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts. Build for both high level and low level access",
+    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts. Built for both high level and low level access.",
     "author": "Albin Corén",
     "price": 0.00,
     "license": "MIT",
@@ -11,7 +11,7 @@
   {
     "logo": "https://pre00.deviantart.net/2a7d/th/pre/i/2017/117/1/a/unity_logo_by_sayence-db7crrv.png",
     "title": "HLAPI",
-    "description": "The Unity Networking extension DLL is the open source component of the Unity Multiplayer Networking system. In this DLL we have the whole networking system except the NetworkTransport related APIs and classes. This is all the high level classes and components which make up the user friendly system of creating multiplayer games. This document details how you can compile your own version of the Networking extension DLL and use that in your games and applications.",
+    "description": "The Unity Networking extension DLL is the open source component of the Unity Multiplayer Networking system.",
     "author": "Unity Technologies",
     "price": 0.00,
     "license": "MIT",
