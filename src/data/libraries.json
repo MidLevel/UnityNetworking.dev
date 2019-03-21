@@ -18,6 +18,15 @@
     "href": "https://bitbucket.org/Unity-Technologies/networking/"
   },
   {
+    "logo": "https://i.imgur.com/bvgxA0X.png",
+    "title": "Mirror",
+    "description": "High Level Networking API for Unity, optimized for ease of use and probability of success.",
+    "author": "vis2k, Paul",
+    "price": 0.00,
+    "license": "MIT",
+    "href": "https://github.com/vis2k/Mirror"
+  },
+  {
     "logo": "https://i.imgur.com/ytg1nw5.png",
     "title": "NetStack",
     "description": "Lightweight toolset for creating concurrent networking systems for multiplayer games.",
