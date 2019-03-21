@@ -1,128 +1,20 @@
 [
   {
     "logo": "https://i.imgur.com/oF9L3p4.png",
-    "title": "Mid-Level API",
-    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts.A game networking framework built for the Unity Engine to abstract game networking concepts.A game networking framework built for the Unity Engine to abstract game networking concepts.A game networking framework built for the Unity Engine to abstract game networking concepts.",
-    "author": "Albin Corén",
-    "price": 9.99,
-    "license": "MIT",
-    "href": "https://github.com/MidLevel/MLAPI"
-  },
-  {
-    "logo": "https://i.imgur.com/oF9L3p4.png",
-    "title": "Mid-Level API",
-    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts.",
+    "title": "MLAPI",
+    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts. Build for both high level and low level access",
     "author": "Albin Corén",
     "price": 0.00,
     "license": "MIT",
     "href": "https://github.com/MidLevel/MLAPI"
   },
   {
-    "logo": "https://i.imgur.com/oF9L3p4.png",
-    "title": "Mid-Level API",
-    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts.",
-    "author": "Albin Corén",
+    "logo": "https://pre00.deviantart.net/2a7d/th/pre/i/2017/117/1/a/unity_logo_by_sayence-db7crrv.png",
+    "title": "HLAPI",
+    "description": "The Unity Networking extension DLL is the open source component of the Unity Multiplayer Networking system. In this DLL we have the whole networking system except the NetworkTransport related APIs and classes. This is all the high level classes and components which make up the user friendly system of creating multiplayer games. This document details how you can compile your own version of the Networking extension DLL and use that in your games and applications.",
+    "author": "Unity Technologies",
     "price": 0.00,
     "license": "MIT",
-    "href": "https://github.com/MidLevel/MLAPI"
-  },
-  {
-    "logo": "https://i.imgur.com/oF9L3p4.png",
-    "title": "Mid-Level API",
-    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts.",
-    "author": "Albin Corén",
-    "price": 0.00,
-    "license": "MIT",
-    "href": "https://github.com/MidLevel/MLAPI"
-  },
-  {
-    "logo": "https://i.imgur.com/oF9L3p4.png",
-    "title": "Mid-Level API",
-    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts.",
-    "author": "Albin Corén",
-    "price": 0.00,
-    "license": "MIT",
-    "href": "https://github.com/MidLevel/MLAPI"
-  },
-  {
-    "logo": "https://i.imgur.com/oF9L3p4.png",
-    "title": "Mid-Level API",
-    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts.",
-    "author": "Albin Corén",
-    "price": 0.00,
-    "license": "MIT",
-    "href": "https://github.com/MidLevel/MLAPI"
-  },
-  {
-    "logo": "https://i.imgur.com/oF9L3p4.png",
-    "title": "Mid-Level API",
-    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts.",
-    "author": "Albin Corén",
-    "price": 0.00,
-    "license": "MIT",
-    "href": "https://github.com/MidLevel/MLAPI"
-  },
-  {
-    "logo": "https://i.imgur.com/oF9L3p4.png",
-    "title": "Mid-Level API",
-    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts.",
-    "author": "Albin Corén",
-    "price": 0.00,
-    "license": "MIT",
-    "href": "https://github.com/MidLevel/MLAPI"
-  },
-  {
-    "logo": "https://i.imgur.com/oF9L3p4.png",
-    "title": "Mid-Level API",
-    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts.",
-    "author": "Albin Corén",
-    "price": 0.00,
-    "license": "MIT",
-    "href": "https://github.com/MidLevel/MLAPI"
-  },
-  {
-    "logo": "https://i.imgur.com/oF9L3p4.png",
-    "title": "Mid-Level API",
-    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts.",
-    "author": "Albin Corén",
-    "price": 0.00,
-    "license": "MIT",
-    "href": "https://github.com/MidLevel/MLAPI"
-  },
-  {
-    "logo": "https://i.imgur.com/oF9L3p4.png",
-    "title": "Mid-Level API",
-    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts.",
-    "author": "Albin Corén",
-    "price": 0.00,
-    "license": "MIT",
-    "href": "https://github.com/MidLevel/MLAPI"
-  },
-  {
-    "logo": "https://i.imgur.com/oF9L3p4.png",
-    "title": "Mid-Level API",
-    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts.",
-    "author": "Albin Corén",
-    "price": 0.00,
-    "license": "MIT",
-    "href": "https://github.com/MidLevel/MLAPI"
-  },
-  {
-    "logo": "https://i.imgur.com/oF9L3p4.png",
-    "title": "Mid-Level API",
-    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts.",
-    "author": "Albin Corén",
-    "price": 0.00,
-    "license": "MIT",
-    "href": "https://github.com/MidLevel/MLAPI"
-  },
-  {
-    "logo": "https://i.imgur.com/oF9L3p4.png",
-    "title": "Mid-Level API",
-    "description": "A game networking framework built for the Unity Engine to abstract game networking concepts.",
-    "author": "Albin Corén",
-    "price": 0.00,
-    "license": "MIT",
-    "href": "https://github.com/MidLevel/MLAPI"
+    "href": "https://bitbucket.org/Unity-Technologies/networking/"
   }
 ]
